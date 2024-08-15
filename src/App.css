@@ -267,7 +267,7 @@ h3 {
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 178.333px 85.333px 133.333px;
+    padding: 198.333px 85.333px 133.333px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
@@ -316,3 +316,17 @@ h3 {
     margin: auto;
 }
   /* Hero Section Style Ends */
+
+  /*about me*/
+.about--section {
+    display: grid;
+    padding: 133.3px 85.3px;
+    align-items: center;
+    gap: 0px;
+    grid-template-columns: 1fr 1.25fr;;
+}
+.about--section--img > img {
+    width: 70%;
+    height: auto;
+    border-radius:40px;
+}
