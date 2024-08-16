@@ -545,13 +545,18 @@ h3 {
 }
 
 @media only screen and (max-width: 1200px) {
+.navbar{
+    padding: 15px 30px;
+}
 .btn-outline-primary {
     display: none;
 }
 .hero--section {
+
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 70px;
+    padding-top: 120px;
 }
 .hero--section--title,
 .footer--content {
@@ -559,14 +564,14 @@ h3 {
 }
 .main--hero--section--description {
 
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     width: 100%; /* Ensures it spans the full width */
 }
 .hero--section--description {
 
-    font-size: 20px;
-    text-align: left;
+    font-size: 18px;
+    text-align: center;
     width: 100%; /* Ensures it spans the full width */
 }
 .footer--link--container,
@@ -575,10 +580,6 @@ h3 {
 .hero--section--content,
 .hero--section--content--box {
     align-items: center;
-}
-.hero--section--description {
-    text-align: left;
-    width: 100%; /* Ensures it spans the full width */
 }
 .portfolio--section--container,
 .portfolio--container-box {
@@ -617,11 +618,11 @@ h3 {
 }
 .hero--section--title,
 .sections--heading {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 40px;
 }
 .about--section--heading {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 40px;
 }
 .hero--section--content--box {
