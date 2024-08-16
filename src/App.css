@@ -309,7 +309,7 @@ h3 {
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 198.333px 85.333px 133.333px;
+    padding: 198.333px 85px 133.333px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
@@ -551,6 +551,13 @@ h3 {
 .btn-outline-primary {
     display: none;
 }
+.hero--section,
+.about--section,
+.portfolio--section,
+.contact--section{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .hero--section {
 
     display: flex;
@@ -571,7 +578,7 @@ h3 {
 .hero--section--description {
 
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     width: 100%; /* Ensures it spans the full width */
 }
 .footer--link--container,
