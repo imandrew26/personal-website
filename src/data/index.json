@@ -2,24 +2,25 @@
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/placeholder-image.png",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/portfolio-web-laptop.png",
+        "title": "Personal Website",
+        "description": "Website showcasing interests, resume, and projects. Built in ReactJS and hosted on Netlify.",
+        "linkText": "View In Github",
+        "link": "https://github.com/imandrew26/portfolio-website-v1"
       },
       {
         "id": "2",
-        "src": "./img/placeholder-image-1.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/TSP.png",
+        "title": "Travelling Salesman Sim",
+        "description": "Program simulating travelling salesman problem with multiple optimization algorithms.",
+        "linkText": "Contact Me"
       },
       {
         "id": "3",
-        "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/piazza.png",
+        "title": "Forum Post Classifier",
+        "description": "Machine learning classifier to automatically identify the subject of student forum posts.",
+        "linkText": "Contact Me"
       }
       
     ]

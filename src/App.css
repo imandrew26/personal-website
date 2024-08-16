@@ -29,16 +29,17 @@ p {
 }
 */
 
+/*
 :root {
-    --primary: #ff6f61; /* Warm Coral */
-    --heading-color: #333333; /* Dark Gray */
-    --bg-shade: #fff9f7; /* Ultra Light Peach */
-    --github: #e62872; /* GitHub Pink */
-    --darkblue: #3b3a4f; /* Slate Blue */
-    --black: #000000; /* Black */
-    --white: #ffffff; /* White */
+    --primary: #ff6f61;
+    --heading-color: #333333;
+    --bg-shade: #fff9f7;
+    --github: #e62872;
+    --darkblue: #3b3a4f;
+    --black: #000000;
+    --white: #ffffff;
 }
-
+*/
 
 /*
 :root {
@@ -51,17 +52,20 @@ p {
     --white: #ffffff;
 }
 */
-/*
+
 :root {
-    --primary: #ff4757;
-    --heading-color: #2f3542;
-    --bg-shade: #edf2f4;
-    --github: #e62872;
-    --darkblue: #57606f;
-    --black: #000000;
-    --white: #ffffff;
+    --primary: #1e90ff; /* Electric Blue */
+    --heading-color: #2f3542; /* Dark Slate */
+    --bg-shade: #edf2f4; /* Soft Grayish Blue */
+    --github: #e62872; /* GitHub Pink */
+    --darkblue: #4a5568; /* Steel Blue */
+    --black: #000000; /* Black */
+    --white: #ffffff; /* White */
 }
-*/
+
+
+
+
 
 
 
@@ -315,7 +319,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 25px;
   }
   .hero--section--content {
     display: flex;
@@ -401,6 +405,7 @@ h3 {
     width: 100%;
 }
 .portfolio--section--img > img {
+     border-radius: 10px;
     width: 100%;
 }
 .portfolio--section--card {
@@ -412,8 +417,7 @@ h3 {
     background: #fff;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-radius: 10px;
 }
 .portfolio--section--card--content {
     display: flex;
