@@ -95,7 +95,7 @@ function Navbar() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  to="testimonial"
+                  to="Contact"
                   className="navbar--content"
                 >
                   Contact
@@ -103,18 +103,14 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <Link
-            onClick={closeMenu}
-            activeClass="navbar--active-content"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            to="Contact"
-            className="btn btn-outline-primary"
-          >
-            My Resume&nbsp;&nbsp;<i class="fa-solid fa-file-arrow-down"></i>
-          </Link>
+          <a
+                href="/AndrewWang_Resume.pdf"
+                className="btn btn-outline-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+            <i class="fa-solid fa-file-arrow-down"></i>&nbsp;&nbsp; My Resume
+          </a>
         </nav>
       );
     }

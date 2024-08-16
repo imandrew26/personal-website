@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-scroll";
+
 export default function HeroSection(){
     return(
         <section id="heroSection" className="hero--section">
@@ -17,7 +20,15 @@ export default function HeroSection(){
                         at the University of Michigan.
                     </p>
                 </div>
-                <button className="btn btn-primary"> Get in Touch </button>
+                <Link 
+                    to="Contact" 
+                    smooth={true} 
+                    duration={500} 
+                    offset={-70} 
+                    className="btn btn-primary"
+                >
+                    Get in Touch
+                </Link>
             </div>
             <div className = "hero--section--img">
                 <img src = "./img/headshot.png" alt = "Hero Headshot" />
