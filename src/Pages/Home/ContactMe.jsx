@@ -2,7 +2,7 @@ export default function ContactMe() {
     return (
     <section id="Contact" className="contact--section">
         <div>
-            <h2>Contact Me</h2>
+            <h2 className="about--section--heading">Contact Me</h2>
         </div>
         <form
         className="contact--form--container"

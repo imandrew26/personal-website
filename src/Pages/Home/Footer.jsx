@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div className="navbar--logo">
+        <div className="footer--logo">
           <img src="./img/logo.png" alt="logo" />
         </div>
         <div className="footer--items">

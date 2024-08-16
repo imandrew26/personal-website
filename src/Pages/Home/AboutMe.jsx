@@ -7,7 +7,7 @@ export default function AboutMe() {
         </div>
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
-            <h2 className="skills-section--heading">About Me</h2>
+            <h2 className="about--section--heading">About Me</h2>
             <p className="hero--section--description">
                 Hi, my name is Andrew Wang — I'm a student at the University of Michigan
                 studying computer science and business. I enjoy using programming as a
@@ -25,6 +25,7 @@ export default function AboutMe() {
             <p className="hero--section--description">
                 Thanks for visiting my website!
             </p>
+
           </div>
         </div>
       </section>

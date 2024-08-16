@@ -14,9 +14,8 @@ export default function HeroSection(){
                         <br />
                         Software Engineer
                     </h1>
-                    <p className="hero--section--description">
+                    <p className="main--hero--section--description">
                         I'm a student studying computer science + business
-                        <br />
                         at the University of Michigan.
                     </p>
                 </div>
