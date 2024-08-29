@@ -2,24 +2,32 @@
     "portfolio": [
       {
         "id": "1",
+        "src": "./img/nike-app.png",
+        "title": "Sneaker Ecommerce App",
+        "description": "Ecommerce app developed using Flutter. Features a complete shopping cart sytem and Stripe secure payment via Express.js.",
+        "linkText": "View In Github",
+        "link": "https://github.com/imandrew26/sneaker-brand-ecommerce-app"
+      },
+      {
+        "id": "2",
         "src": "./img/portfolio-web-laptop.png",
         "title": "Personal Website",
-        "description": "Website showcasing interests, resume, and projects. Built in ReactJS and hosted on Netlify.",
+        "description": "Website with mobile support showcasing interests, resume, contact info, and projects. Built with ReactJS and hosted on Netlify.",
         "linkText": "View In Github",
         "link": "https://github.com/imandrew26/portfolio-website-v1"
       },
       {
-        "id": "2",
+        "id": "3",
         "src": "./img/TSP.png",
         "title": "Travelling Salesman Sim",
-        "description": "Program simulating travelling salesman problem with multiple optimization algorithms.",
+        "description": "Program simulating the travelling salesman problem using multiple optimization algorithms, including 2-opt and arbitrary insertion.",
         "linkText": "Contact Me"
       },
       {
-        "id": "3",
+        "id": "4",
         "src": "./img/piazza.png",
         "title": "Forum Post Classifier",
-        "description": "Machine learning classifier to automatically identify the subject of student forum posts.",
+        "description": "Machine learning classifier to automatically predict the subject of student forum posts. Uses a custom templated map to retrieve data.",
         "linkText": "Contact Me"
       }
       

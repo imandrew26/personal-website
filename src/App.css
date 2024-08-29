@@ -436,6 +436,7 @@ h3 {
     align-self: stretch;
 }
 .portfolio--section--title {
+    font-size: 20px;
     color: var(--heading-color);
 }
 .portfolio--link {
