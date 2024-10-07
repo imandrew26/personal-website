@@ -18,9 +18,9 @@
       },
       {
         "id": "3",
-        "src": "./img/TSP.png",
-        "title": "Travelling Salesman Sim",
-        "description": "Program simulating the travelling salesman problem using multiple optimization algorithms, including 2-opt and arbitrary insertion.",
+        "src": "./img/insta-clone-2.png",
+        "title": "Instagram Clone",
+        "description": "Instagram-like web app using React, Flask, and MySQL to handle post creation, interactions, and user authentication. Deployed on AWS.",
         "linkText": "Contact Me"
       },
       {

@@ -7,10 +7,12 @@ import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-
 export default function Footer() {
   return (
     <footer className="footer--container">
-      <div className="footer--link--container">
+      <div className="box navbar_left">
         <div className="footer--logo">
-          <img src="./img/logo.png" alt="logo" />
+          <img src="./img/fullname-logo.png" alt="logo" />
         </div>
+      </div>
+      <div className="box navbar_center">
         <div className="footer--items">
           <ul>
             <li>
@@ -18,7 +20,7 @@ export default function Footer() {
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-50}
                 duration={500}
                 to="heroSection"
                 className="text-md"
@@ -31,7 +33,7 @@ export default function Footer() {
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-50}
                 duration={500}
                 to="AboutMe"
                 className="text-md"
@@ -44,7 +46,7 @@ export default function Footer() {
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-50}
                 duration={500}
                 to="MyPortfolio"
                 className="text-md"
@@ -57,7 +59,7 @@ export default function Footer() {
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-50}
                 duration={500}
                 to="Contact"
                 className="text-md"
@@ -67,6 +69,8 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="box navbar_right">
         <div className="footer--social--icon">
           <ul>
             <li>

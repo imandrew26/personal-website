@@ -23,7 +23,7 @@ export default function HeroSection(){
                     to="Contact" 
                     smooth={true} 
                     duration={500} 
-                    offset={-70} 
+                    offset={-50} 
                     className="btn btn-primary"
                 >
                     Get in Touch
