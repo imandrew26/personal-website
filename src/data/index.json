@@ -3,7 +3,7 @@
       {
         "id": "1",
         "src": "./img/nike-app.png",
-        "title": "Sneaker Ecommerce App",
+        "title": "Sneaker App",
         "description": "Ecommerce app developed using Flutter. Features a complete shopping cart sytem and Stripe secure payment via Express.js.",
         "linkText": "View In Github",
         "link": "https://github.com/imandrew26/sneaker-brand-ecommerce-app"
@@ -26,8 +26,8 @@
       {
         "id": "4",
         "src": "./img/piazza.png",
-        "title": "Forum Post Classifier",
-        "description": "Machine learning classifier to automatically predict the subject of student forum posts. Uses a custom templated map to retrieve data.",
+        "title": "Post Classifier",
+        "description": "Machine learning classifier to automatically predict the subject of student forum posts. Uses a templated map to retrieve data.",
         "linkText": "Contact Me"
       }
       

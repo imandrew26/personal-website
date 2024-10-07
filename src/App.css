@@ -437,7 +437,7 @@ h3 {
 }
 .portfolio--section--container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     gap: 42.6px;
     width: 100%;
@@ -456,12 +456,11 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    flex: 1 0 0;
+    flex: 1;
     background: #fff;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     width: 100%;
-    height: 475px; 
 }
 .portfolio--section--card--content {
     display: flex;
@@ -470,6 +469,7 @@ h3 {
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
+    flex-grow: 1;
 }
 
 .portfolio--section--title {
@@ -485,6 +485,7 @@ h3 {
     padding-bottom: 10.6px;
     font-weight: 600;
     cursor: pointer;
+    margin-top: auto;
 }
 
 .portfolio--link:hover i {
@@ -625,13 +626,13 @@ h3 {
 
     font-size: 18px;
     text-align: center;
-    width: 100%; /* Ensures it spans the full width */
+    width: 100%;
 }
 .hero--section--description {
 
     font-size: 18px;
     text-align: left;
-    width: 100%; /* Ensures it spans the full width */
+    width: 100%;
 }
 .footer--link--container,
 .footer--items > ul,
@@ -646,21 +647,22 @@ h3 {
     align-items: center;
 }
 .portfolio--section--card {
-    width: 100%; /* Make cards full-width on small screens */
-    margin-bottom: 20px; /* Add space between the cards */
+    width: 100%;
+    margin-bottom: 20px;
 }
 .about--section {
 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content horizontally */
+    align-items: center;
     
 }
 .about--section--img > img {
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 100%; /* Make the image full-width */
+    width: 100%;
 }
+
 .portfolio--container-box {
     gap: 30px;
 }
@@ -700,6 +702,6 @@ h3 {
 .footer--items > ul {
     padding: 0;
     align-items: center;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column;
 }
 }
