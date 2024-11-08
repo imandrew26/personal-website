@@ -43,7 +43,7 @@ export default function MyPortfolio(){
                                     >
                                         {item.linkText}
                                         &nbsp;&nbsp;
-                                        <i class="fa-regular fa-message"></i>
+                                        <i className="fa-regular fa-message"></i>
                                     </Link>
                                 ) : (
                                     <a

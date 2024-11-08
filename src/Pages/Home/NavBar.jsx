@@ -46,7 +46,7 @@ function Navbar() {
             <span className="nav__hamburger__line"></span>
           </a>
           <div className="box navbar_center">
-            <div className={`navbar--items ${navActive ? "active" : ""}`}>
+           <div className={`navbar--items ${navActive ? "active" : ""}`}>
               <ul>
                 <li>
                   <Link
@@ -55,7 +55,7 @@ function Navbar() {
                     spy={true}
                     smooth={true}
                     offset={-50}
-                    duration={500}
+                    duration ={500}
                     to="heroSection"
                     className="navbar--content"
                   >
